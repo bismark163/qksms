@@ -160,6 +160,7 @@ dependencies {
         exclude group: 'com.android.support', module: 'support-v4'
         exclude module: 'recyclerview-v7'
     }
+
     androidTestImplementation 'androidx.test:rules:1.1.0'
     androidTestImplementation "org.mockito:mockito-android:$mockito_version"
     testImplementation "androidx.test:runner:$androidx_testrunner_version"
